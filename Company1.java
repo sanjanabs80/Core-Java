@@ -24,12 +24,20 @@ Company1(String companyname,String location,int numberofstaffs,String employeena
 	this.skills=skills;
 }
 public static void main(String[] args){
-	Company1 cmp=new Company1("TCS","banglore",200,"asha",101,"developer",25000,"BE",876235672,"java");
-	System.out.println(cmp.companyname);
+	Company1 cmp=null;
+		if(cmp!=null)
+		{
+	//Company1 cmp=new Company1("TCS","banglore",200,"asha",101,"developer",25000,"BE",876235672,"java");
+	//System.out.println(cmp.companyname);
 	Company1 cmp1=new Company1("TCS","banglore",200,"asha",101,"developer",25000,"BE",876235672,"java");
 	System.out.println(cmp1.location);
 	Company1 cmp2=new Company1("TCS","banglore",200,"asha",101,"developer",25000,"BE",876235672,"java");
 	System.out.println(cmp2.salary);
+	}
+		else
+		{
+			System.out.println("null");
+		}
 	
 	
 	
