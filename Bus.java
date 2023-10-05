@@ -23,6 +23,7 @@ public class Bus{
 	{
 		Bus bus=new Bus(500,"red",45,"bmtc");
 		Bus bus1=new Bus(25,"blue",30,"volvo");
+		if(bus!=null && bus1!=null){
 		
 		System.out.println(bus.color);
 		System.out.println(bus1.busType);
@@ -30,12 +31,12 @@ public class Bus{
 		
 		Bus bus2=new Bus(25,"blue",30,"volvo");
 		System.out.println(bus.numberofSeats);
-				System.out.println(bus1.color);
+	    System.out.println(bus1.color);
 		
 
 	
 	}
-	
+	}
 	
 }
 
